@@ -107,8 +107,18 @@ body {
     margin-top: 10px;
 }
 
+.product-button:disabled {
+    background-color: grey;
+    color: darkgray;
+    cursor: not-allowed;
+}
+
 .product-button:hover {
     background-color: #c0392b;
+}
+
+.product-button:disabled:hover {
+    background-color: grey;
 }
 
 /* Pseudo-elements - Sale badge */
